@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildFinder : Register</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Wildfinder</a></li>
+        </ul>
+    </div>
+
+
+    <!-- create account -->
+    <div class="login-wrapper">
+        <form action="user/create" method="post">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="form-control" name="userName" id="userName" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="form=control" name="password" id="password" placeholder="Password" required>
+            </div>
+            <!-- create account button -->
+            <button type="submit" class="btn">Create Account</button>
+            <div class="operator-link">Are you a park operator?
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeKcJU52FtFMcRUfPVvqYq7oEXfDcDRzFMUgsIL2BeGuwaMnA/viewform">
+                    Click Here!</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

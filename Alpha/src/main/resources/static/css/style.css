@@ -1,0 +1,226 @@
+/*
+#F3EEEF     white
+#D9C988     beige
+#EE6963     red
+#F1B420     yellow
+#4F6F4C     green
+*/
+
+body {
+    font-family: "Poopins", sans-seriff;
+    background: #F3EEEF;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+    background-image: url('src/main/resources/images/background.jpg');
+    /* https://unsplash.com/photos/landmark-photography-of-trees-near-rocky-mountain-under-blue-skies-daytime-ndN00KmbJ1c */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome-container {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+#main-header {
+    font-size: 70px;
+    background-color: white;
+}
+
+.welcome-container p {
+    background-color: white;
+}
+
+.welcome-container a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 0px;
+}
+
+
+.cont p {
+    font-size: 20px;
+    display: inline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #4F6F4C;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #EE6963;
+}
+
+.navbar li {
+    float: left;
+}
+
+.login-wrapper {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form button {
+    margin: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.input-box input {
+    margin: 5px;
+}
+
+.operator-link {
+    padding-top: 5px;
+}
+
+.main-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-flow: column wrap;
+}
+
+
+/* the map */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Alamance  testing*/
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.trail-list {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+
+}
+
+.guilded-trail {
+    padding: 10px;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 40%;
+    align-content: center;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.dropdown-content .park-info {
+    text-align: left;
+}
+
+.Address {
+    padding: 5px;
+}
+
+.hawriver {
+    display: block;
+    margin: 0 auto;
+}
+
+/* stars css */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.stars i {
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.stars i.active {
+    color: #ff9c1a;
+} */
